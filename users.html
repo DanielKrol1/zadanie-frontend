@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-flex justify-content-center center">
+        <h3>Choose what user data you want:</h3>
+        <div class="zaznacz d-flex justify-content-around">
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="uuid" checked>
+                <label class="form-check-label" for="uuid">
+                    Uuid
+                </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="firstname" checked>
+                <label class="form-check-label" for="firstname">
+                    Firstname
+                </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="lastname" checked>
+                <label class="form-check-label" for="lastname">
+                    Lastname
+                </label>
+            </div>
+           <div>
+                <input class="form-check-input" type="checkbox" value="" id="username" checked>
+                <label class="form-check-label" for="username">
+                    Username
+                </label>
+           </div>
+           <div>
+            <input class="form-check-input" type="checkbox" value="" id="password" checked>
+            <label class="form-check-label" for="password">
+                Password
+            </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="email" checked>
+                <label class="form-check-label" for="email">
+                    Email
+                </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="ip" checked>
+                <label class="form-check-label" for="ip">
+                    Ip
+                </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="macAddress" checked>
+                <label class="form-check-label" for="macAddress">
+                    MacAddress
+                </label>
+            </div>
+        </div>
+        
+        <h3>How many?</h3>
+        <div class="input-group mb-3 much">
+            <input id="num1" type="number" class="form-control" min="1" max="100" aria-describedby="cardbutton">
+            <button class="btn btn-outline-secondary" type="button" id="userbutton">Generate</button>
+        </div>
+        
+    </div>
+    
+    
+</body>
+<script src="userScript.js"></script>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-flex justify-content-center center">
+        <h3>Choose what credit card data you want:</h3>
+        <div class="zaznacz d-flex justify-content-around">
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="type" checked>
+                <label class="form-check-label" for="type">
+                    Type
+                </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="number" checked>
+                <label class="form-check-label" for="number">
+                    Number
+                </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="expiration" checked>
+                <label class="form-check-label" for="expiration">
+                    Expiration
+                </label>
+            </div>
+           <div>
+                <input class="form-check-input" type="checkbox" value="" id="owner" checked>
+                <label class="form-check-label" for="owner">
+                    Owner
+                </label>
+           </div>
+        </div>
+        
+        <h3>How many?</h3>
+        <div class="input-group mb-3 much">
+            <input id="num" type="number" class="form-control" min="1" max="100" aria-describedby="cardbutton">
+            <button class="btn btn-outline-secondary" type="button" id="cardbutton">Generate</button>
+        </div>
+        
+    </div>
+    
+    
+</body>
+<script src="cardScript.js"></script>
+</html>

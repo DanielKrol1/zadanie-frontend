@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: antiquewhite;
+}
+
+.nav{
+    display: none;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: gold;
+    cursor: pointer;
+}
+.active{
+    color: black;
+}
+
+.day{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+
+.dark-mode header {
+    background-color: #424242;
+    color: #fff;
+  }
+
+
+.dark-mode a{
+    color: #fff;
+  }
+
+.dark-mode .active{
+    color: #fff !important;
+  }
+
+#content{
+    margin-top: 30px;
+}
+
+#content > div > div{
+    margin-bottom: 50px;
+}
+
+.dark-mode .ebtn{
+    background-color: #333;
+    margin: 10px;
+}
+
+.ebtn{
+    margin: 10px;
+}
+
+.sqlt{
+    width: 80%;
+    height: max-content;
+}
+
+.dark-mode .btn{
+    color: #fff;
+}
+
+.dark-mode .btn:hover{
+    background-color: #424242;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn{
+    color: #424242;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+    color: black;
+    transition: 0.5s;
+}
+
+.item{
+    border: 2px antiquewhite solid;
+}
+
+.dark-mode .item{
+    border: 2px #424242 solid;
+}
+
+.much{
+    width: 50%;
+}
+
+.center{
+    flex-direction: column;
+    align-items: center;
+}
+
+.zaznacz{
+    width: 50%;
+}
+
+#imagee{
+    width: 100%;
+}
+
+#kotwica{
+    font-size: 20px;
+    margin: 10px;
+}
+.disno{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    .zaznacz{
+        flex-direction: column;
+    }
+}
